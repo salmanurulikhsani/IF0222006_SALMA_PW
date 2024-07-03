@@ -1,4 +1,4 @@
- <?php
+<?php
 
 return [
 
@@ -339,36 +339,12 @@ return [
             'submenu' => [
                 [
                     'text' => 'Data Program Studi',
-                    'url' => '#',
+                    'url' => 'program-studi',
                 ],
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
+                    'text' => 'Data Fakultas',
+                    'url' => 'fakultas',
+                ]
             ],
         ],
         ['header' => 'labels'],
