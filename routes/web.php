@@ -26,3 +26,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //Route::get('/program-studi', [ProgramStudiController::class, 'index'])->name('program-studi');
 Route::resource('/fakultas', FakultasController::class);
 Route::resource('/program-studi', ProgramStudiController::class);
+Route::get('/sekolah', [App\Http\Controllers\SekolahController::class,'index']);
+Route::get('/fetch-sekolah', [App\Http\Controllers\SekolahController::class,'fetchSekolah']);

@@ -335,6 +335,7 @@ return [
         ],
         [
             'text' => 'Data Master',
+           
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [
                 [
@@ -344,6 +345,10 @@ return [
                 [
                     'text' => 'Data Fakultas',
                     'url' => 'fakultas',
+                ],
+                [
+                    'text' => 'Data sekolah',
+                    'url' => 'sekolah',
                 ]
             ],
         ],
